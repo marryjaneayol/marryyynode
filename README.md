@@ -12,7 +12,7 @@ steps:
 - run: npm ci
 - run: npm test
 When using the package.json input, the action will look for volta.node first. If volta.node isn't defined, then it will look for engines.node.
-
+)
 {
   "engines": {
     "node": ">=16.0.0"
