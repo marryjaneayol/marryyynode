@@ -18,7 +18,7 @@ When using the package.json input, the action will look for volta.node first. If
     "node": ">=16.2.0"
   },
   "volta": {
-    "node": "16.0.0"
+    "node": "16.1.0"
   }
 }
 Otherwise, when volta.extends is defined, then it will resolve the corresponding file and look for volta.node or engines.node recursively.
