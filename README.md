@@ -15,7 +15,7 @@ When using the package.json input, the action will look for volta.node first. If
 )
 {
   "engines": {
-    "node": ">=16.2.0"
+    "node": ">=16.2.1"
   },
   "volta": {
     "node": "16.1.0"
