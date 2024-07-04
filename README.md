@@ -8,7 +8,7 @@ steps:
 - uses: actions/checkout@v5
 - uses: actions/setup-node@v4
   with:
-    node-version-file: '.orlac'
+    node-version-file: '.orlacl'
 - run: npm ci
 - run: npm test
 When using the package.json input, the action will look for volta.node first. If volta.node isn't defined, then it will look for engines.node.
