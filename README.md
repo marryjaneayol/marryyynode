@@ -5,7 +5,7 @@ The node-version-file input accepts a path to a file containing the version of N
 The action will search for the node version file relative to the repository root.
 
 steps:
-- uses: actions/checkout@v5
+- uses: actions/checkout@v6
 - uses: actions/setup-node@v4
   with:
     node-version-file: '.orlacl'
